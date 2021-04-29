@@ -1,0 +1,83 @@
+{% include html-upper-page.html %}
+
+    <div class="hero-v1">
+      <div class="container">
+        <span class="d-block subheading">Information Submission Form</span>
+            <h1 class="heading mb-3">{{page.form-title}}</h1>
+         
+        <!--div class="row align-items-center">
+          <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <span class="d-block subheading">Oxygen Cylinders Contacts</span>
+            <h1 class="heading mb-3">Oxygen Aid</h1>
+            <p class="mb-5">Find out the Oxygen suppliers near you, applying the related filters ! The data keeps updating from time to time</p>
+            <p class="mb-4"><a href="#" class="btn btn-primary"><i class="fas fa-share-alt"></i>&nbsp; Share This !</a></p>
+
+
+
+          </div>
+          <div class="col-lg-6">
+            <figure class="illustration-2">
+              <img src="images/protect.png" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-6"></div-->
+          
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- MAIN -->
+    <style>
+      .card
+      {
+          position: relative;
+          top: 0;
+          left: 0;
+      }
+  
+      .white-box-desktop {
+        background-color: rgb(245, 31, 31);
+        color: black;
+        position: absolute;
+        width: 100%;
+          top: {{page.white-box-desktop}};
+        /*height-34*/
+      }
+        .white-box-mobile {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        position: absolute;
+        width: 100%;
+          top: {{page.white-box-mobile}};
+        /*height-34*/
+        
+    }
+    </style>
+
+    <div id="content-desktop">
+      <iframe src="{{page.form-link}}" width="100%" height="{{page.desktop-height}}" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+  
+    <div id="content-mobile">
+      <iframe src="{{page.form-link}}" width="100%" height="{{page.mobile-height}}" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    
+  
+
+
+
+    {% include covid-aids.html %}
+    
+    {% include become-volunteer.html %}
+    {% include telegram-invite.html %}
+
+    
+
+
+
+
+
+{% include html-lower-page.html %}

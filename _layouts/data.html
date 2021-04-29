@@ -1,0 +1,122 @@
+{% include html-upper-page.html %}
+
+    <div class="hero-v1">
+      <div class="container">
+        <span class="d-block subheading">Explore Available Covid-19 Aid !</span>
+            <h1 class="heading mb-3">{{page.data-title}}</h1>
+         A Community supported listing of available resources.
+        <!--div class="row align-items-center">
+          <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <span class="d-block subheading">Oxygen Cylinders Contacts</span>
+            <h1 class="heading mb-3">Oxygen Aid</h1>
+            <p class="mb-5">Find out the Oxygen suppliers near you, applying the related filters ! The data keeps updating from time to time</p>
+            <p class="mb-4"><a href="#" class="btn btn-primary"><i class="fas fa-share-alt"></i>&nbsp; Share This !</a></p>
+
+
+
+          </div>
+          <div class="col-lg-6">
+            <figure class="illustration-2">
+              <img src="images/protect.png" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-6"></div-->
+          
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- MAIN -->
+    
+    <!--Data-Region-->
+    <style>
+      .card
+      {
+          position: relative;
+          top: 0;
+          left: 0;
+      }
+  
+      .white-box-desktop {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        position: absolute;
+        width: 100%;
+          top: {{page.white-box-desktop}};
+        /*height-34*/
+      }
+        .white-box-mobile {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        position: absolute;
+        width: 100%;
+          top: {{page.white-box-mobile}};
+        /*height-34*/
+        
+    }
+    </style>
+    <div id="content-desktop">
+      <div>
+        <div style="position: relative; left: 0; top: 0;">
+          <iframe class="card" width="100%" height="{{page.desktop-height}}" src="{{page.desktop-data-link}}" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+          <div class="white-box-desktop" width="100%">
+            &nbsp; </br>
+            &nbsp;
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div id="content-mobile">
+      <div>
+        <div style="position: relative; left: 0; top: 0;">
+          <iframe class="card" width="100%" height="{{page.mobile-height}}" src="{{page.mobile-data-link}}" frameborder="0" style="border:0" allowfullscreen></iframe>
+          
+          <div class="white-box-mobile" width="100%">
+            &nbsp; </br>
+            &nbsp;
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <style>
+          #content-desktop {display: block;}
+    #content-mobile {display: none;}
+
+    @media screen and (max-width: 768px) {
+
+    #content-desktop {display: none;}
+    #content-mobile {display: block;}
+
+    }
+    </style>
+    <!--Data-Region Ends-->
+   <p>&nbsp;</p>
+    <div class="container">
+        <div class="row mb-5">
+          {{content}}
+        </div>
+    </div>
+    
+
+    {% include covid-aids.html %}
+    {% include contribute-invite.html %}
+    {% include telegram-invite.html %}
+
+
+
+
+
+    
+    
+
+
+
+
+{% include html-lower-page.html %}
