@@ -51,7 +51,7 @@
       </div>
       <div class="site-mobile-menu-body">
         MENU
-        <ul>
+        <ul class="no-bullets">
           <li class="active"><a href={{ "/" | relative_url }} class="nav-link"><i class="fas fa-home"></i> Home</a></li>
           <li>
             <a href={{ "/#covidaids" | relative_url }} class="nav-link"><i class="fas fa-info-circle"></i> Resources</a>
@@ -65,7 +65,13 @@
           <li><a href={{ "/contributeinfo" | relative_url }} class="nav-link"><i class="fas fa-heart"></i> Contribute Info</a></li>
           <li><a href={{ "/about" | relative_url }} class="nav-link"><i class="fas fa-address-card"></i> About</a></li>
           <li><a href={{ "/#contact" | relative_url }} class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
-          
+          <style>
+            ul.no-bullets{
+              list-style-type: none;
+              padding: 0;
+              margin: 0;
+            }
+          </style>
         </ul>
       </div>
     </div>
