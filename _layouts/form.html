@@ -64,6 +64,14 @@
       <iframe src="{{page.form-link}}" width="100%" height="{{page.mobile-height}}" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </div>
 
+    <style>
+      #content-desktop {display: block;}
+      #content-mobile {display: none;}
+      @media screen and (max-width: 768px) {
+      #content-desktop {display: none;}
+      #content-mobile {display: block;}
+      }
+    </style>
     
   
 
