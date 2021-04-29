@@ -276,7 +276,7 @@ jQuery(document).ready(function($) {
       var hash = this.hash;
 
       $('html, body').animate({
-        'scrollTop': $(hash).offset().top
+        
       }, 600, 'easeInOutExpo', function(){
         window.location.hash = hash;
       });
