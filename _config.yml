@@ -23,8 +23,8 @@ email: theoffbeatdoc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A non-profit endeavour to collect, verify and provide authentic data about available COVID resources/aids for people to avail.
   An initiative by The OffBeat Doc. 
-baseurl: "/cov19resources" # the subpath of your site, e.g. /blog
-url: "https://theoffbeatdoc.github.io" # the base hostname & protocol for your site, e.g. http://example.com https://theoffbeatdoc.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.cov19resources.cf" # the base hostname & protocol for your site, e.g. http://example.com https://theoffbeatdoc.github.io
 twitter_username: 
 github_username:  theoffbeatdoc
 
