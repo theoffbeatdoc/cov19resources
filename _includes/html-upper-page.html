@@ -28,11 +28,11 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
+  
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
+  <script src={{ "/js/jquery-3.3.1.min.js" | relative_url }}></script>
   <div id="overlayer"></div>
   <div class="loader">
     <div class="spinner-border text-primary" role="status">
@@ -59,6 +59,9 @@
               <li><a href={{ "/oxygendata" | relative_url }} class="nav-link">Oxygen Supplies Info</a></li>
               <li><a href={{ "/plasmadata" | relative_url }} class="nav-link">Plasma Banks/Donors</a></li>
               <li><a href={{ "/hospitals-ambulances" | relative_url }} class="nav-link">Hospitals & Ambulances</a></li>
+              <li><a href={{ "/fooddata" | relative_url }} class="nav-link">Food Delivery Services</a></li>
+              <li><a href={{ "/telemedicine" | relative_url }} class="nav-link">Telemedicine</a></li>
+              <li><a href={{ "/covidvolunteer" | relative_url }} class="nav-link">Youth Volunteer Networks</a></li>
               <li><a href={{ "/vaccinationguide" | relative_url }} class="nav-link">Vaccination Guide</a></li>
             </ul>
           </li>
@@ -98,9 +101,12 @@
                 <li class="has-children">
                   <a href={{ "/#covidaids" | relative_url }} class="nav-link"><i class="fas fa-info-circle"></i> Resources</a>
                   <ul class="dropdown">
-                    <li><a href={{ "/oxygendata" | relative_url }} class="nav-link">Oxygen Supplies Data</a></li>
+                    <li><a href={{ "/oxygendata" | relative_url }} class="nav-link">Oxygen Supplies Info</a></li>
                     <li><a href={{ "/plasmadata" | relative_url }} class="nav-link">Plasma Banks/Donors</a></li>
                     <li><a href={{ "/hospitals-ambulances" | relative_url }} class="nav-link">Hospitals & Ambulances</a></li>
+                    <li><a href={{ "/fooddata" | relative_url }} class="nav-link">Food Delivery Services</a></li>
+                    <li><a href={{ "/telemedicine" | relative_url }} class="nav-link">Telemedicine</a></li>
+                    <li><a href={{ "/covidvolunteer" | relative_url }} class="nav-link">Youth Volunteer Networks</a></li>
                     <li><a href={{ "/vaccinationguide" | relative_url }} class="nav-link">Vaccination Guide</a></li>
                     <!--li class="has-children">
                       <a href="#">More Links</a>

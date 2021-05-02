@@ -1,0 +1,155 @@
+{% include html-upper-page.html %}
+
+    <div class="hero-v1">
+      <div class="container">
+        <span class="d-block subheading">Explore Available Covid-19 Aid !</span>
+            <h1 class="heading mb-3">{{page.data-title}}</h1>
+         A Community supported listing of available resources.
+        <!--div class="row align-items-center">
+          <div class="col-lg-6 mr-auto text-center text-lg-left">
+            <span class="d-block subheading">Oxygen Cylinders Contacts</span>
+            <h1 class="heading mb-3">Oxygen Aid</h1>
+            <p class="mb-5">Find out the Oxygen suppliers near you, applying the related filters ! The data keeps updating from time to time</p>
+            <p class="mb-4"><a href="#" class="btn btn-primary"><i class="fas fa-share-alt"></i>&nbsp; Share This !</a></p>
+
+
+          </div>
+          <div class="col-lg-6">
+            <figure class="illustration-2">
+              <img src="images/protect.png" alt="Image" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-lg-6"></div-->
+          
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MAIN -->
+    <div class="row mb-3">
+      <div class="col-lg-7 text-center mx-auto">
+        
+        <p>Select your State</p>
+        <select name="plan" id="plan" class="custom-select" style="width:150px;">
+          
+          <option value="West Bengal" selected>West Bengal</option>
+          
+        </select>
+        
+       
+      </div>
+    </div>
+    <div class="container">
+           
+        <div id="table1">
+          <table id="myTable" class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name of Doctor/Service</th>
+                <th>Contact</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody id="demo"></tbody>
+          </table>
+        </div>
+        <div>
+          {{content}}
+        </div>
+    </div>
+    <script>
+      var level;
+      
+      function changeLevel(){
+        
+      document.getElementById("table1").innerHTML = `<table id="myTable" class="table table-striped">
+            <thead>
+              <tr>
+                <th>Name of Doctor/Service</th>
+                <th>Contact</th>
+                <th>Availability</th>
+              </tr>
+            </thead>
+            <tbody id="demo"></tbody>
+          </table>`;
+      level = document.getElementById("plan").value;
+      console.log(level);
+      
+      let xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function () 
+      {
+        if (this.readyState == 4 && this.status == 200) {
+          let data = JSON.parse(this.responseText).feed.entry;
+          
+          let i;
+          
+          for (i = 0; i < data.length; i++) 
+          {
+            
+            let name = data[i]["gsx$nameofdoctorservice"]["$t"];
+            let contact = data[i]["gsx$contactnumber"]["$t"];
+            let availability = data[i]["gsx$availability"]["$t"];
+                     
+              
+                  document.getElementById("demo").innerHTML +=
+                    "<tr>" +
+                    "<td>" +
+                    name +
+                    "</td>" +
+                    "<td>" +
+                    contact +
+                    "</td>" +
+                    "<td>" +
+                    availability +
+                    "</td>" +
+                    "</tr>";
+                
+              
+            }
+            $(document).ready(function(){
+              
+              $("#myTable").fancyTable({
+                 
+                 /* Setting pagination or enabling */
+                 pagination: true,
+                     globalSearch:true,
+                  /* Exclude 2nd column from global search.*/
+                 
+              });                            
+          }); 
+            
+            
+              
+            };
+                 
+        
+      };
+      xmlhttp.open(
+        "GET",
+        "https://spreadsheets.google.com/feeds/list/1waknwwY3se3kX366c9Ic3JI0mwPhnXqMC680TuJ95qc/1/public/values?alt=json",
+        true
+      );
+      xmlhttp.send();
+
+          
+      };
+      changeLevel();
+      
+
+    </script>
+    
+    
+    {% include covid-aids.html %}
+    {% include contribute-invite.html %}
+    {% include telegram-invite.html %}
+
+
+
+
+    
+    
+
+
+
+{% include html-lower-page.html %}

@@ -4,7 +4,7 @@
           <div class="row">
             <div class="col-lg-4">
               <h2 class="footer-heading mb-4">About</h2>
-              <p>A purely non-profit endeavour to accept info about available COVID treatment resources from the community, verify and authenticate them, and display the data for people to avail.</p>
+              <p>A purely non-profit endeavour to present information about COVID-19 resources to the public in these trying times. The information on this site are verified by a dedicated volunteer team.</p>
               <p>&nbsp;</p>
               <p><span style="font-family: 'Trebuchet MS', Helvetica, sans-serif;"><em><span style="color: rgb(40, 50, 78); font-size: 13px;">An initiative by</span></em></span><span style="color: rgb(40, 50, 78);"><span style="font-size: 13px;"></span><br></span></p>
               <p><img src="{{ "/images/logo-red-black.png" | relative_url }}"></p>
@@ -24,17 +24,23 @@
                     <li><a href="{{ "/oxygendata" | relative_url }}">Oxygen Supplies Listings</a></li>
                     <li><a href="{{ "/plasmadata" | relative_url }}">Plasma Banks/Donors</a></li>
                     <li><a href="{{ "/hospitals-ambulances" | relative_url }}">Hospitals & Ambulances Info</a></li>
-                    <li><a href="{{ "/vaccinationguide" | relative_url }}">Vaccination Guides</a></li>
+                    <li><a href={{ "/fooddata" | relative_url }}>Food Delivery Services</a></li>
+                    <li><a href={{ "/telemedicine" | relative_url }}>Telemedicine</a></li>
+                    <li><a href={{ "/covidvolunteer" | relative_url }}>Youth Volunteer Networks</a></li>
+                    <li><a href={{ "/vaccinationguide" | relative_url }}>Vaccination Guide</a></li>
                   
                     
                   </ul>
                 </div>
+                
                 <div class="col-lg-4">
                   <h2 class="footer-heading mb-4">Play your part</h2>
                   <ul class="list-unstyled">
                     <li><a href="{{ "/contributeinfo" | relative_url }}">Contribute Info</a></li>
                     <li><a href="{{ "/volunteer" | relative_url }}">Join as a Volunteer</a></li>
+                    <li><a href="{{ "/bloodbanks" | relative_url }}">Donate Blood</a></li>
                   </ul>
+                  <hr>
                   <h2 class="footer-heading mb-4">Join Our Community</h2>
                   <ul class="list-unstyled">
                     <li><a href="https://t.me/cov19resources">Telegram Channel</a></li>
@@ -71,7 +77,7 @@
     </div> <!-- .site-wrap -->
   
     
-    <script src={{ "/js/jquery-3.3.1.min.js" | relative_url }}></script>
+    
     <script src={{ "/js/jquery-ui.js" | relative_url }}></script>
     <script src={{ "/js/popper.min.js" | relative_url }}></script>
     <script src={{ "/js/bootstrap.min.js" | relative_url }}></script>
@@ -82,9 +88,11 @@
     <script src={{ "/js/jquery.fancybox.min.js" | relative_url }}></script>
     <script src={{ "/js/jquery.sticky.js" | relative_url }}></script>
     <script src={{ "/js/isotope.pkgd.min.js" | relative_url }}></script>
-  
+    
+    <script src={{ "/js/fancyTable.js" | relative_url }}></script>
   
     <script src={{ "/js/main.js" | relative_url }}></script>
+    
     
     <!-- Go to www.addthis.com/dashboard to customize your tools -->
     <!--desktop share-->
