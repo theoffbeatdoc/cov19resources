@@ -16,4 +16,4 @@ white-box-mobile: 1466px
 ---
 
 *Verified by our volunteer team. PLEASE GO THROUGH OUR SITE [DISCLAIMER](/disclaimer) !  
-If you feel someone is demanding unfair amounts of money for providing oxygen supply or is somehow associated with black marketting or other malpractices, kindly inform your state/central law enforcement agencies. Also contact usso that we can remove the entry from our listings.
+If you feel someone is demanding unfair amounts of money for providing oxygen supply or is somehow associated with black marketting or other malpractices, kindly inform your state/central law enforcement agencies. Also contact us so that we can remove the entry from our listings.

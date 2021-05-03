@@ -22,7 +22,7 @@ Dinabandhu Andrews College
 Academy of Technology
 
 **Siddhartha Basu**  
-Bankura Sammilani Medical College and Hospital.
+Bankura Sammilani Medical College and Hospital
 
 **Nirmalya Patra**  
 Bankura Sammilani Medical College and Hospital
