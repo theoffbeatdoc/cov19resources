@@ -23,7 +23,7 @@
 
 
 
-    <!--div class="site-section">
+    <div class="site-section">
       <div class="container">
         <div class="row mb-3">
           <div class="col-lg-7 text-center mx-auto">
@@ -35,56 +35,55 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="team">
-              <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+              <img src={{ "images/person_1.jpg" | relative_url }} alt="Image" class="img-fluid">
               <h3>Koustav Sinha Ray</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
+              <p>(aka <strong>The OffBeat Doc</strong>)<br>Student at Calcutta National Medical College, Kolkata. Conceiver of the project idea, Developer/Programmer of this site and manager of related socials.</p>
+              <!--p>
                 <span class="d-block mb-2"><strong>Connect on social</strong></span>
                 <a href="#" class="p-2 icon-facebook"></a>
                 <a href="#" class="p-2 icon-twitter"></a>
                 <a href="#" class="p-2 icon-linkedin"></a>
                 <a href="#" class="p-2 icon-instagram"></a>
-              </p>
+              </p-->
             </div>
           </div>
           <div class="col-lg-4">
             <div class="team">
-              <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+              <img src={{ "images/person_2.jpg" | relative_url }} alt="Image" class="img-fluid">
               <h3>Prabuddha Bose</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
-                <span class="d-block mb-2"><strong>Connect on social</strong></span>
-                <a href="#" class="p-2 icon-facebook"></a>
-                <a href="#" class="p-2 icon-twitter"></a>
-                <a href="#" class="p-2 icon-linkedin"></a>
-                <a href="#" class="p-2 icon-instagram"></a>
-              </p>
+              <p>Student at Medical College, Kolkata. Assembler and Leader of the Volunteer group, and contributor of articles and resources on the site, suggester of site features.</p>
+              
             </div>
           </div>
           <div class="col-lg-4">
             <div class="team">
-              <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+              <img src={{ "images/person_3.jpg" | relative_url }} alt="Image" class="img-fluid">
               <h3>Soham Chakraborty</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut commodi accusantium eveniet nemo maiores deleniti rerum animi, deserunt veniam error.</p>
-              <p>
-                <span class="d-block mb-2"><strong>Connect on social</strong></span>
-                <a href="#" class="p-2 icon-facebook"></a>
-                <a href="#" class="p-2 icon-twitter"></a>
-                <a href="#" class="p-2 icon-linkedin"></a>
-                <a href="#" class="p-2 icon-instagram"></a>
-              </p>
+              <p>Student at Presidency University, Kolkata. Contributor of articles and resources on the site, proofreader, suggester site features, manager of related socials.</p>
+              
             </div>
+          </div>
+          <p>&nbsp;</p>
+          
+        </div>
+        <div class="row mb-3">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading">Our Volunteers</h2>
+            <p>Here are the members of our Volunteer team !</p>
+            <div>
+              {{content}}
+            </div>
+            
           </div>
         </div>
       </div>
-    </div-->
+    </div>
 
   
-    
     <div class="site-section">
       <div class="container">
-        <div class="row mb-5">
-          {{content}}
+        <div>
+          
         </div>
       </div>
     </div>
