@@ -28,7 +28,15 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
-  
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5KSK0G26K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L5KSK0G26K');
+    </script>
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -63,6 +71,7 @@
               <li><a href={{ "/telemedicine" | relative_url }} class="nav-link">Telemedicine</a></li>
               <li><a href={{ "/covidvolunteer" | relative_url }} class="nav-link">Youth Volunteer Networks</a></li>
               <li><a href={{ "/vaccinationguide" | relative_url }} class="nav-link">Vaccination Guide</a></li>
+              <li><a href="{{ "/bloodbanks" | relative_url }}" class="nav-link">Blood Banks</a></li>
             </ul>
           </li>
           <li><a href={{ "/contributeinfo" | relative_url }} class="nav-link"><i class="fas fa-heart"></i> Contribute Info</a></li>
@@ -108,6 +117,7 @@
                     <li><a href={{ "/telemedicine" | relative_url }} class="nav-link">Telemedicine</a></li>
                     <li><a href={{ "/covidvolunteer" | relative_url }} class="nav-link">Youth Volunteer Networks</a></li>
                     <li><a href={{ "/vaccinationguide" | relative_url }} class="nav-link">Vaccination Guide</a></li>
+                    <li><a href="{{ "/bloodbanks" | relative_url }}" class="nav-link">Blood Banks</a></li>
                     <!--li class="has-children">
                       <a href="#">More Links</a>
                       <ul class="dropdown">

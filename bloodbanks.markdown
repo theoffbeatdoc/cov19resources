@@ -7,6 +7,8 @@ permalink: bloodbanks/
 title: Blood Banks & Donation
 
 ---
+### THIS PAGE IS UNDER DEVELOPMENT.   
+  
 Select your state/city name:
 
 - [West Bengal-Kolkata](#westbengal---kolkata)	
