@@ -18,6 +18,15 @@ Nil Ratan Sircar Medical College and Hospital
 **Subhajit Chatterjee**  
 Dinabandhu Andrews College
 
+**Arpita Mitra**   
+Vivekananda Institute of Medical Science   
+
+**Soumya Paul**   
+working as IT Analyst in TCS   
+
+**Smriti Modi**   
+Calcutta National Medical College   
+
 **Upayan Bakshi**  
 Academy of Technology
 
@@ -28,10 +37,7 @@ Bankura Sammilani Medical College and Hospital
 Bankura Sammilani Medical College and Hospital
 
 **Koushik Pal**  
-Medical College, Kolkata
-
-**Mamun Aktar**   
-Medical College, Kolkata
+Medical College, Kolkata   
 
 **Payel Das**  
 Medical College, Kolkata
@@ -50,3 +56,12 @@ Bankura Sammilani Medical College and Hospital
 
 **Himadri Halder**  
 Ramakrishna Mission Vidyamandira, Belur Math
+
+**Santanu Mondal**   
+The Neotia University    
+
+**Mamun Aktar**   
+Medical College, Kolkata 
+
+**Anik Mukherjee**   
+Haldia Institute of Technology   
