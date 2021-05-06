@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /about/
----
+--- 
 **Aakash Pal**   
 Ramakrishna Mission Residential College (Autonomous), Narendrapur   
 
