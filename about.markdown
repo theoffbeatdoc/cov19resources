@@ -3,6 +3,12 @@ layout: about
 title: About
 permalink: /about/
 --- 
+**Subhajit Chatterjee**  
+Dinabandhu Andrews College
+
+**Soumya Paul**   
+working as IT Analyst in TCS  
+
 **Aakash Pal**   
 Ramakrishna Mission Residential College (Autonomous), Narendrapur   
 
@@ -13,24 +19,24 @@ Dinabandhu Andrews College
 Nil Ratan Sircar Medical College and Hospital   
 
 **Rajdip Saha**  
-Nil Ratan Sircar Medical College and Hospital
-
-**Subhajit Chatterjee**  
-Dinabandhu Andrews College
-
-**Arpita Mitra**   
-Vivekananda Institute of Medical Science   
-
-**Soumya Paul**   
-working as IT Analyst in TCS   
+Nil Ratan Sircar Medical College and Hospital 
 
 **Smriti Modi**   
-Calcutta National Medical College   
+Calcutta National Medical College  
+
+**Arpita Mitra**   
+Vivekananda Institute of Medical Science    
+
+**Sneha Mondal**   
+Vivekananda Institute of Medical Science  
 
 **Upayan Bakshi**  
 Academy of Technology
 
 **Siddhartha Basu**  
+Bankura Sammilani Medical College and Hospital
+
+**Sagnik Sinha**   
 Bankura Sammilani Medical College and Hospital
 
 **Nirmalya Patra**  
