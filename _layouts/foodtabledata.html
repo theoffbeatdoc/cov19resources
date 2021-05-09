@@ -111,8 +111,8 @@
                 if (verifiedsheet=="TRUE")
                 {
                   document.getElementById("demo").innerHTML +=
-                    "<tr>" +
-                    "<td>" +
+                    `<tr>` +
+                    `<td>` +
                     region +
                     "</td>" +
                     "<td>" +
@@ -129,9 +129,11 @@
             {
               if (state == level)
               {
+                if (verifiedsheet=="TRUE")
+                {
                   document.getElementById("demo").innerHTML +=
-                    "<tr>" +
-                    "<td>" +
+                    `<tr>` +
+                    `<td>` +
                     region +
                     "</td>" +
                     "<td>" +
@@ -141,6 +143,21 @@
                     contact +
                     "</td>" +
                     "</tr>";
+                }
+                else{
+                  document.getElementById("demo").innerHTML +=
+                  `<tr>` +
+                    `<td><span style="color: rgb(209, 72, 65);">` +
+                    region +
+                    "</span></td>" +
+                    `<td><span style="color: rgb(209, 72, 65);">` +
+                    name +
+                    "</span></td>" +
+                    `<td><span style="color: rgb(209, 72, 65);">` +
+                    contact +
+                    "</span></td>" +
+                    "</tr>";
+                    };
               }
             }
             

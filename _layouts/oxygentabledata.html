@@ -128,8 +128,11 @@
             }
             if (verifiedbool == 0)
             {
+              
               if (state == level)
               {
+                if (verifiedsheet=="TRUE")
+                {
                   document.getElementById("demo").innerHTML +=
                     "<tr>" +
                     "<td>" +
@@ -142,6 +145,21 @@
                     contact +
                     "</td>" +
                     "</tr>";
+                }
+                else{
+                  document.getElementById("demo").innerHTML +=
+                    "<tr>" +
+                      `<td><span style="color: rgb(209, 72, 65);">` +
+                    region +
+                    "</span></td>" +
+                    `<td><span style="color: rgb(209, 72, 65);">` +
+                    name +
+                    "</span></td>" +
+                    `<td><span style="color: rgb(209, 72, 65);">` +
+                    contact +
+                    "</span></td>" +
+                    "</tr>";
+                    };
               }
             }
             
@@ -151,10 +169,10 @@
               
               $("#myTable").fancyTable({
                  
-                 /* Setting pagination or enabling */
+                 
                  pagination: true,
                      globalSearch:true,
-                  /* Exclude 2nd column from global search.*/
+                  
                  
               });                            
           });            
