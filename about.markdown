@@ -4,10 +4,13 @@ title: About
 permalink: /about/
 --- 
 **Subhajit Chatterjee**  
-Dinabandhu Andrews College
+Dinabandhu Andrews College   
+
+**Smriti Modi**   
+Calcutta National Medical College   
 
 **Soumya Paul**   
-working as IT Analyst in TCS  
+IT Analyst at TCS  
 
 **Aakash Pal**   
 Ramakrishna Mission Residential College (Autonomous), Narendrapur   
@@ -19,10 +22,7 @@ Dinabandhu Andrews College
 Nil Ratan Sircar Medical College and Hospital   
 
 **Rajdip Saha**  
-Nil Ratan Sircar Medical College and Hospital 
-
-**Smriti Modi**   
-Calcutta National Medical College  
+Nil Ratan Sircar Medical College and Hospital  
 
 **Arpita Mitra**   
 Vivekananda Institute of Medical Science    
@@ -58,7 +58,10 @@ Medical College, Kolkata
 Medical College, Kolkata
 
 **Sayantani Das**  
-Bankura Sammilani Medical College and Hospital
+Bankura Sammilani Medical College and Hospital  
+
+**Sridip Saha**  
+DMLT Student at Medical College Kolkata  
 
 **Himadri Halder**  
 Ramakrishna Mission Vidyamandira, Belur Math
