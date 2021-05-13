@@ -70,7 +70,10 @@ Ramakrishna Mission Vidyamandira, Belur Math
 The Neotia University    
 
 **Mamun Aktar**   
-Medical College, Kolkata 
+Medical College, Kolkata   
+
+**Abhirup Banerjee**    
+Dinabandhu Andrews College   
 
 **Anik Mukherjee**   
 Haldia Institute of Technology   
