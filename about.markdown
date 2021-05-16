@@ -60,6 +60,12 @@ Medical College, Kolkata
 **Sayantani Das**  
 Bankura Sammilani Medical College and Hospital  
 
+**Soumik Sarkar**  
+Calcutta National Medical College   
+
+**Monalisa Guha**  
+Calcutta National Medical College   
+
 **Sridip Saha**  
 DMLT Student at Medical College Kolkata  
 
