@@ -38,11 +38,11 @@ Select your state/city name:
 
 - #### Hospitals
   Visit the following links:
-  - [Hospital Bed Availability Status (Gets Updated Frequently)(click here)](https://excise.wb.gov.in/CHMS/Public/Page/CHMS_Public_Hospital_Bed_Availability.aspx)
+  - [Hospital Bed Availability Status (Gets Updated Frequently)(click here)](https://excise.wb.gov.in/CHMS/Public/Page/CHMS_Public_Hospital_Bed_Availability.aspx)   
+  - [Safe Home Bed Availability Status (click here)](https://excise.wb.gov.in/CHMS/Public/Page/CHMS_Public_Safe_Home_Bed_Availability.aspx)   
   - Bed Availability Status (Gets updated daily):
     - [Government Hospitals (click here)](https://www.wbhealth.gov.in/pages/corona/bed_availability) 
-    - [Private Hospitals (click here)](https://www.wbhealth.gov.in/pages/corona/bed_availability_pvt)
-    - [Safe Home Bed Availability Status (click here)](https://excise.wb.gov.in/CHMS/Public/Page/CHMS_Public_Safe_Home_Bed_Availability.aspx)
+    - [Private Hospitals (click here)](https://www.wbhealth.gov.in/pages/corona/bed_availability_pvt)   
   - [Status of COVID patients admitted in Hospitals of West Bengal (click here)](http://cpms.wbhealth.gov.in:8003/PatientStatusForPublic.aspx)   
 ----   
 - ####  [Contact Details of Admission Cell Helpdesk (click here)](#ContactDetailsofAdmissionCellHelpdesk)
