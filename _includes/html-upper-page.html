@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href={{ "/fonts/icomoon/style.css" | relative_url }}>
-
+  
   <link rel="stylesheet" href={{ "/css/bootstrap.min.css" | relative_url }}>
   <link rel="stylesheet" href={{ "/css/jquery-ui.css" | relative_url }}>
   <link rel="stylesheet" href={{ "/css/owl.carousel.min.css" | relative_url }}>
@@ -29,6 +29,10 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
+  <!--Notification-->
+  
+  <link rel="stylesheet" href={{ "/css/notifications.css" | relative_url }}>
+
       <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-L5KSK0G26K"></script>
     <script>
@@ -41,6 +45,27 @@
 
 </head>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+    // Create a success notification instance
+      const successNotification = window.createNotification({
+        theme: 'error',
+        showDuration: 100000,
+        displayCloseButton: true
+      });
+        
+
+
+      // Use the same instance but pass a title
+      successNotification({ 
+          title: 'NOTE:',
+          message: "As the Emergency demand for Oxygen and other COVID resources has decreased (thanks to the decreased number of Covid cases across the country), this site is no longer maintained! But, we haven't deleted/closed the site so that we can use the platform again if situation demands!" 
+      });
+
+    });
+  </script>
+
   <script src={{ "/js/jquery-3.3.1.min.js" | relative_url }}></script>
   <div id="overlayer"></div>
   <div class="loader">
