@@ -13,7 +13,7 @@ Calcutta National Medical College
 IT Analyst at TCS  
 
 **Aakash Pal**   
-Ramakrishna Mission Residential College (Autonomous), Narendrapur   
+Indian Institute of Technology (IIT), Bombay   
 
 **Abhas Chatterjee**   
 Dinabandhu Andrews College   
