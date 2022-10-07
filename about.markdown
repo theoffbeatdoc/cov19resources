@@ -70,7 +70,7 @@ Calcutta National Medical College
 DMLT Student at Medical College Kolkata  
 
 **Himadri Halder**  
-Ramakrishna Mission Vidyamandira, Belur Math
+Indian Institute of Technology (IIT), Bombay
 
 **Santanu Mondal**   
 The Neotia University    
